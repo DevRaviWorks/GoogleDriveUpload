@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GoogleDriveUpload/bin/Debug/netcoreapp3.1
+/GoogleDriveUpload/obj/Debug/netcoreapp3.1
+/GoogleDriveUpload/obj/Release/netcoreapp3.1
+/GoogleDriveUpload/obj
+/.vs/GoogleDriveService/v16/.suo
