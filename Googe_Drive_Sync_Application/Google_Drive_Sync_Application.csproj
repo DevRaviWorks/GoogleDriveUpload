@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Google_Drive_Sync_Application</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.57.0.2746" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Win32.Registry" Version="4.4.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="credentials.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
