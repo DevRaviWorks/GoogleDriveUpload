@@ -6,7 +6,6 @@ namespace Google_Drive_Sync_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             GoogleDriveSyncService syncService = new GoogleDriveSyncService();
             syncService.StartSync();
         }
